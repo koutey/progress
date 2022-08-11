@@ -4,3 +4,18 @@ body{
 * {
     font-style: inherit
 }
+h1{
+    color:aqua;
+    font-style: italic;
+    background: green;
+    text-align: center; 
+}
+input{
+    border:0px;
+    border-radius: 5px;
+}
+button{
+    border:0px;
+    border-radius: 5px;
+    color:red;
+}
