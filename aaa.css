@@ -10,7 +10,7 @@ h1{
     background: rgb(2, 34, 2);
     text-align: center; 
 }
-p{
+label{
     color:rgb(196, 169, 18);
     font-style:italic;
 }
