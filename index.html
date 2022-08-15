@@ -9,11 +9,39 @@
     <script src="aaa.js"></script>
 </head>
 <body>
-    <h1>Hola buen día, no recomiendo ingresar.</h1>
-    <div>
-        <label for="nombre">Nombre:</label>
-        <input type="text" id ="nombre">
-    </div>
-    <button type="button" class="but" onclick="redireccion()">Enviar</button>
+    <h1>aaaaaaaa</h1>
+    <main>
+        <form action="" class="formulario"  id="formulario">
+            <div class="formulario_g"   id="grup-user">
+                <label for="user"   class="formulario_lab">Email</label>
+                    <input type="text"  class="formulario_inp"  name="user" id="user" placeholder="ejemplo@gmail.com">
+            </div>
+            <p  class="formu_error">El email debe contener "@".</p>
+
+            <div class="formulario_g"   id="grup-pass">
+                <label for="pass"   class="formulario_lab">Contraseña</label>
+                    <input type="password"  class="formulario_inp"  name="pass" id="pass">
+            </div>
+            <p  class="formu_error">La contraseña debe contener al menos un número, una mayúscula y 8 cáracteres.</p>
+
+            <div class="formulario_g"   id="grup-pass2">
+                <label for="pass2"   class="formulario_lab">Confirmar contraseña</label>
+                    <input type="password"  class="formulario_inp"  name="pass2" id="pass2">
+            </div>
+            <p  class="formu_error">Las contraseñas deben ser iguales.</p>
+
+            <div class="formulario_g"   id="term">
+                <label class="formulario_lab">
+                    <input class="formulario_checkbox" type="checkbox" name="terminos" id="terminos">
+                    Acepto los terminos y condiciones.
+                </label>
+            </div>
+
+            <div class="formulario_g    formulario_g-enviar">
+                <button type="submit" class="form_but">Ingresar</button>
+            </div>
+        </form>
+        <button type="button" class="but" onclick="redireccion()">Don't touch.</button>
+    </main>
 </body>
 </html>
