@@ -1,11 +1,11 @@
 body{
-    background-color: rgb(36, 28, 102);
+    background-color: rgb(51, 0, 48);
 }
 
 h1{
     font-style: italic;
     font-size: 40px;
-    color:rgb(18, 177, 177);
+    color:rgb(161, 177, 18);
     background-color: rgb(80, 0, 0);
     text-align: center;
 }
@@ -24,9 +24,10 @@ label{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    border-radius: 5px;
     padding: 20px 60px;
-    background-color: midnightblue;
-    color: aliceblue;
+    background-color: rgb(211, 147, 9);
+    color: rgb(80, 0, 0);
 }
 
 #hora{
