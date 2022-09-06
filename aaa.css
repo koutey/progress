@@ -1,5 +1,37 @@
+body{
+    background-color: rgb(36, 28, 102);
+}
+
+h1{
+    font-style: italic;
+    font-size: 40px;
+    color:rgb(18, 177, 177);
+    background-color: rgb(80, 0, 0);
+    text-align: center;
+}
+
 label{
+    font-style: italic;
+    color: rgb(163, 106, 0);
     display: block;
     float: left;
     width: 80px;
+}
+
+.contenedorReloj{
+    margin: 100px 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: midnightblue;
+    color: aliceblue;
+}
+
+#hora{
+    font-size: 32px;
+}
+#fecha{
+    font-size: 26px;
 }

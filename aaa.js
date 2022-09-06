@@ -2,9 +2,11 @@ const nombre = document.getElementById('nombre');
 const contraseña = document.getElementById('contraseña');
 const error = document.getElementById('error');
 error.style.color = 'red';
+let contenedor = document.getElementById('contenedor')
+let lista = []
 
 function  redireccion(){
-    location.href   = 'https://www.youtube.com/watch?v=zAL8i0FzxL8'     
+    window.location.href  = 'aaa.html'     
 }
 
 function funcionEnviar(){
@@ -23,3 +25,4 @@ function funcionEnviar(){
 
     return false;
 }
+
