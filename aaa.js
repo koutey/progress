@@ -5,6 +5,8 @@ error.style.color = 'red';
 let contenedor = document.getElementById('contenedor')
 let lista = []
 
+
+
 function  redireccion(){
     window.location.href  = 'aaa.html'     
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,23 +8,25 @@
     <link rel="stylesheet" href="aaa.css">
     <title>Document</title>
 </head>
+
 <body>
     <h1>aaa</h1>
-    <form action="">
-        <div id="contenedor">
-           <label   for="nombre">Nombre</label> 
-           <input   type="text" id="nombre">
+    <div class="container">
+        <div class="inputs">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre">
         </div>
         <div>
-            <label   for="contraseña">Contraseña</label> 
-            <input   type="password" id="contraseña">
-         </div>
-         <input type="submit" id="btn" onclick="return funcionEnviar();" value="Enviar">
-    </form>
-<div id="error"></div>
-<input type="button" id="limpiar" onclick="limpiar()"value="Limpiar">
-  
+            <label for="contraseña">Contraseña</label>
+            <input type="password" id="contraseña">
+        </div>
+        <input type="submit" class="btn" onclick="return funcionEnviar();" value="Enviar">
+    </div>
+ <!--    <div id="error"></div>
+    <input type="button" id="limpiar" onclick="limpiar()" value="Limpiar"> -->
+
     <script src="aaa.js"></script>
     <script src="bbb.js"></script>
 </body>
+
 </html>
